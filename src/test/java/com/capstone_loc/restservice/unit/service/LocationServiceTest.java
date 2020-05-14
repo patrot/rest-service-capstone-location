@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class LocationServiceTest {
 
     @Test
-    public void GetAllLocationsTest() {
+    public void getAllLocationsTest() {
 
         // Arrange
 
