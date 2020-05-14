@@ -38,7 +38,7 @@ public class LocationApi {
 
     @Test
     @DirtiesContext
-    public void departmentsPathShouldReturnOkStatus() throws IOException {
+    public void locationsPathShouldReturnOkStatus() throws IOException {
 
         // Arrange
         HttpUriRequest request = new HttpGet("http://localhost:" + port + locationsPath);
@@ -52,7 +52,7 @@ public class LocationApi {
 
     @Test
     @DirtiesContext
-    public void departmentsPathShouldReturnAllDepartmentsInPersistence() throws IOException {
+    public void locationsPathShouldReturnAllDepartmentsInPersistence() throws IOException {
 
         // Arrange
 
