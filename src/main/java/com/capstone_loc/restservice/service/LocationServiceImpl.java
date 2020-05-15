@@ -1,8 +1,8 @@
-package com.capstone_loc.restservice.domain;
+package com.capstone_loc.restservice.service;
 
+import com.capstone_loc.restservice.domain.Location;
 import com.capstone_loc.restservice.repository.LocationDto;
 import com.capstone_loc.restservice.repository.LocationRepository;
-import com.capstone_loc.restservice.service.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
