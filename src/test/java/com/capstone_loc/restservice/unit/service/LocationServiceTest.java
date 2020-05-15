@@ -1,7 +1,7 @@
 package com.capstone_loc.restservice.unit.service;
 
 import com.capstone_loc.restservice.domain.Location;
-import com.capstone_loc.restservice.domain.LocationServiceImpl;
+import com.capstone_loc.restservice.service.LocationServiceImpl;
 import com.capstone_loc.restservice.repository.LocationDto;
 import org.junit.jupiter.api.Test;
 
