@@ -28,7 +28,4 @@ public class LocationServiceImpl implements LocationService {
         return locations;
     }
 
-    public void setRepository(LocationRepository locationRepository) {
-        this.locationRepository = locationRepository;
-    }
 }
